@@ -17,7 +17,7 @@ provider "aws" {
 
 #Resource to create s3 bucket
 resource "aws_s3_bucket" "demo-bucket"{
-  bucket = "magic_bucket_of_the_wizard"
+  bucket = "magic-bucket-of-the-wizard123"
 
   tags = {
     Name = "S3Bucket"
